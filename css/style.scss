@@ -1,0 +1,30 @@
+//  google font
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+@import "variable";
+@import "layout";
+@import "component";
+@import "animation";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+h1 {
+  color: $-h1-light;
+}
+p {
+  color: $p-light;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  display: inline-block;
+}
